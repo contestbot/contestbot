@@ -22,9 +22,13 @@ class Bot
     end
 
     def move
-        mov = Random.rand(1)
-        puts "mov#{mov}"
-        case mov
+
+        valueMov = [valueMov("N"),valueMov("E"),valueMov("S"),valueMov("O"),valueMov("P")]
+        indexMax = valueMov.index(valueMov.max)
+
+       /* mov = Random.rand(1)
+        puts "mov#{mov}"*/
+        case indexMax
             when 0
                 return "N"
             when 1
@@ -34,16 +38,26 @@ class Bot
             when 3
                 return "O"
             when 4
-                return "BN"
-            when 5
-                return "BE"
-            when 6
-                return "BS"
-            when 7
-                return "BO"
-            when 8
                 return "P"
         end
+
+    end
+
+    def valueMov (mov)
+
+      newPos = findNewPos(mov)
+
+      if(isValid(newPos)== false)
+          return -20;
+      end
+      
+    end
+
+    def findNewPos (mov)
+
+    end
+
+    def isValid(newPos)
 
     end
 end
