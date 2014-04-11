@@ -15,9 +15,16 @@ class Bot
             map[index] = row.split(",")
 
         end
+
         pos = mapa.index(@letter) / 2
+
+        puts pos
+
         @y = pos / rows.length
         @x = pos % rows.length
+
+      puts @y
+      puts @x
     end
 
     def move
