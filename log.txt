@@ -1,0 +1,302 @@
+{ User: { [Function: model] modelName: 'User' },
+  LoginToken: { [Function: model] modelName: 'LoginToken' } }
+Express server listening on port 3000 in development mode
+carga de mapas finalizada
+fuctions for play...
+call crear partida ever 5000
+Wed Apr 02 2014 00:16:44 GMT-0500 (COT) bomberbot server launched
+Wed Apr 02 2014 00:16:44 GMT-0500 (COT) error UUpdating null
+Wed Apr 02 2014 00:16:49 GMT-0500 (COT) waiting players... connected: 0
+CONNECTED: 192.168.243.60:56248
+asignar Id...
+done!
+data...
+Wed Apr 02 2014 00:16:52 GMT-0500 (COT) socket status: unknow
+Wed Apr 02 2014 00:16:52 GMT-0500 (COT) socket data for undefined bot1,533b7e7fdd3caa2805000003
+login: bot1 533b7e7fdd3caa2805000003
+Wed Apr 02 2014 00:16:52 GMT-0500 (COT) bot1 conectado
+Wed Apr 02 2014 00:16:52 GMT-0500 (COT) error updating null
+Wed Apr 02 2014 00:16:54 GMT-0500 (COT) waiting players... connected: 1
+Wed Apr 02 2014 00:16:59 GMT-0500 (COT) waiting players... connected: 1
+CONNECTED: 192.168.243.60:56249
+asignar Id...
+done!
+data...
+Wed Apr 02 2014 00:17:00 GMT-0500 (COT) socket status: unknow
+Wed Apr 02 2014 00:17:00 GMT-0500 (COT) socket data for undefined bot2,533b7eb8dd3caa2805000005
+login: bot2 533b7eb8dd3caa2805000005
+Wed Apr 02 2014 00:17:00 GMT-0500 (COT) bot2 conectado
+Wed Apr 02 2014 00:17:00 GMT-0500 (COT) error updating null
+Wed Apr 02 2014 00:17:04 GMT-0500 (COT) waiting players... connected: 2
+CONNECTED: 192.168.243.60:56252
+asignar Id...
+done!
+data...
+Wed Apr 02 2014 00:17:08 GMT-0500 (COT) socket status: unknow
+Wed Apr 02 2014 00:17:08 GMT-0500 (COT) socket data for undefined bot3,533b7edfdd3caa2805000007
+login: bot3 533b7edfdd3caa2805000007
+data...
+Wed Apr 02 2014 00:17:08 GMT-0500 (COT) socket status: unknow
+Wed Apr 02 2014 00:17:08 GMT-0500 (COT) socket data for undefined 
+login:  undefined
+Wed Apr 02 2014 00:17:08 GMT-0500 (COT) bot3 conectado
+close...
+Wed Apr 02 2014 00:17:08 GMT-0500 (COT) error updating null
+Wed Apr 02 2014 00:17:08 GMT-0500 (COT) error updating user null
+Wed Apr 02 2014 00:17:09 GMT-0500 (COT) waiting players... connected: 2
+CONNECTED: 192.168.243.60:56253
+asignar Id...
+done!
+data...
+Wed Apr 02 2014 00:17:12 GMT-0500 (COT) socket status: unknow
+Wed Apr 02 2014 00:17:12 GMT-0500 (COT) socket data for undefined bot3,533b7edfdd3caa2805000007
+login: bot3 533b7edfdd3caa2805000007
+Wed Apr 02 2014 00:17:12 GMT-0500 (COT) bot3 conectado
+Wed Apr 02 2014 00:17:12 GMT-0500 (COT) error updating null
+Wed Apr 02 2014 00:17:14 GMT-0500 (COT) waiting players... connected: 3
+Wed Apr 02 2014 00:17:19 GMT-0500 (COT) waiting players... connected: 3
+Wed Apr 02 2014 00:17:24 GMT-0500 (COT) waiting players... connected: 3
+Wed Apr 02 2014 00:17:29 GMT-0500 (COT) waiting players... connected: 3
+CONNECTED: 192.168.243.60:56256
+asignar Id...
+done!
+data...
+Wed Apr 02 2014 00:17:29 GMT-0500 (COT) socket status: unknow
+Wed Apr 02 2014 00:17:29 GMT-0500 (COT) socket data for undefined Killerbot,533b7f08dd3caa2805000009
+login: Killerbot 533b7f08dd3caa2805000009
+Wed Apr 02 2014 00:17:29 GMT-0500 (COT) Killerbot conectado
+Wed Apr 02 2014 00:17:29 GMT-0500 (COT) error updating null
+Wed Apr 02 2014 00:17:34 GMT-0500 (COT) 4
+se ha creado un mapa nuevop
+mapa 6
+Wed Apr 02 2014 00:17:34 GMT-0500 (COT) players connected 4
+D 9 1
+[ [ 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X' ],
+  [ 'X', 'A', '_', '_', '_', 'L', '_', '_', '_', 'D', 'X' ],
+  [ 'X', '_', 'X', '_', 'X', '_', 'X', '_', 'X', '_', 'X' ],
+  [ 'X', '_', '_', '_', '_', '_', '_', '_', '_', '_', 'X' ],
+  [ 'X', '_', 'X', '_', 'X', 'L', 'X', '_', 'X', '_', 'X' ],
+  [ 'X', 'L', '_', '_', 'L', 'L', 'L', '_', '_', 'L', 'X' ],
+  [ 'X', '_', 'X', '_', 'X', 'L', 'X', '_', 'X', '_', 'X' ],
+  [ 'X', '_', '_', '_', '_', '_', '_', '_', '_', '_', 'X' ],
+  [ 'X', '_', 'X', '_', 'X', '_', 'X', '_', 'X', '_', 'X' ],
+  [ 'X', 'B', '_', '_', '_', 'L', '_', '_', '_', 'C', 'X' ],
+  [ 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X' ] ]
+bot1 juegos: 10
+bot2 juegos: 10
+Killerbot juegos: 10
+bot3 juegos: 10
+Wed Apr 02 2014 00:17:34 GMT-0500 (COT) null
+Wed Apr 02 2014 00:17:34 GMT-0500 (COT) null
+Wed Apr 02 2014 00:17:34 GMT-0500 (COT) null
+Wed Apr 02 2014 00:17:34 GMT-0500 (COT) null
+jugar partida...
+Wed Apr 02 2014 00:17:35 GMT-0500 (COT) jugador bot1 accion: undefined
+Wed Apr 02 2014 00:17:35 GMT-0500 (COT) jugador bot2 accion: undefined
+Wed Apr 02 2014 00:17:35 GMT-0500 (COT) jugador Killerbot accion: undefined
+Wed Apr 02 2014 00:17:35 GMT-0500 (COT) jugador bot3 accion: undefined
+Wed Apr 02 2014 00:17:35 GMT-0500 (COT) Turno: --1--
+Wed Apr 02 2014 00:17:35 GMT-0500 (COT)
+ X,X,X,X,X,X,X,X,X,X,X
+X,A,_,_,_,L,_,_,_,D,X
+X,_,X,_,X,_,X,_,X,_,X
+X,_,_,_,_,_,_,_,_,_,X
+X,_,X,_,X,L,X,_,X,_,X
+X,L,_,_,L,L,L,_,_,L,X
+X,_,X,_,X,L,X,_,X,_,X
+X,_,_,_,_,_,_,_,_,_,X
+X,_,X,_,X,_,X,_,X,_,X
+X,B,_,_,_,L,_,_,_,C,X
+X,X,X,X,X,X,X,X,X,X,X
+data...
+Wed Apr 02 2014 00:17:35 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:35 GMT-0500 (COT) socket data for bot3 S
+data...
+Wed Apr 02 2014 00:17:35 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:35 GMT-0500 (COT) socket data for bot3 
+data...
+Wed Apr 02 2014 00:17:35 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:35 GMT-0500 (COT) socket data for Killerbot BN
+data...
+Wed Apr 02 2014 00:17:35 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:35 GMT-0500 (COT) socket data for bot1 BO
+data...
+Wed Apr 02 2014 00:17:35 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:35 GMT-0500 (COT) socket data for bot2 BS
+jugar partida...
+Wed Apr 02 2014 00:17:36 GMT-0500 (COT) jugador bot1 accion: BO
+Wed Apr 02 2014 00:17:36 GMT-0500 (COT) jugador bot2 accion: BS
+Wed Apr 02 2014 00:17:36 GMT-0500 (COT) jugador Killerbot accion: BN
+Wed Apr 02 2014 00:17:36 GMT-0500 (COT) jugador bot3 accion: S
+Wed Apr 02 2014 00:17:36 GMT-0500 (COT) Turno: --2--
+Wed Apr 02 2014 00:17:36 GMT-0500 (COT)
+ X,X,X,X,X,X,X,X,X,X,X
+X,A,_,_,_,L,_,_,_,_,X
+X,_,X,_,X,_,X,_,X,D,X
+X,_,_,_,_,_,_,_,_,_,X
+X,_,X,_,X,L,X,_,X,_,X
+X,L,_,_,L,L,L,_,_,L,X
+X,_,X,_,X,L,X,_,X,_,X
+X,_,_,_,_,_,_,_,_,_,X
+X,_,X,_,X,_,X,_,X,2,X
+X,B,_,_,_,L,_,_,_,C,X
+X,X,X,X,X,X,X,X,X,X,X
+data...
+Wed Apr 02 2014 00:17:36 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:36 GMT-0500 (COT) socket data for bot3 O
+data...
+Wed Apr 02 2014 00:17:36 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:36 GMT-0500 (COT) socket data for bot1 BN
+data...
+Wed Apr 02 2014 00:17:36 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:36 GMT-0500 (COT) socket data for bot2 O
+data...
+Wed Apr 02 2014 00:17:36 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:36 GMT-0500 (COT) socket data for bot2 
+data...
+Wed Apr 02 2014 00:17:36 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:36 GMT-0500 (COT) socket data for Killerbot BE
+jugar partida...
+Wed Apr 02 2014 00:17:37 GMT-0500 (COT) jugador bot1 accion: BN
+Wed Apr 02 2014 00:17:37 GMT-0500 (COT) jugador bot2 accion: O
+Wed Apr 02 2014 00:17:37 GMT-0500 (COT) jugador Killerbot accion: BE
+Wed Apr 02 2014 00:17:37 GMT-0500 (COT) jugador bot3 accion: O
+Wed Apr 02 2014 00:17:37 GMT-0500 (COT) Turno: --3--
+Wed Apr 02 2014 00:17:37 GMT-0500 (COT)
+ X,X,X,X,X,X,X,X,X,X,X
+X,A,_,_,_,L,_,_,_,_,X
+X,_,X,_,X,_,X,_,X,D,X
+X,_,_,_,_,_,_,_,_,_,X
+X,_,X,_,X,L,X,_,X,_,X
+X,L,_,_,L,L,L,_,_,L,X
+X,_,X,_,X,L,X,_,X,_,X
+X,_,_,_,_,_,_,_,_,_,X
+X,_,X,_,X,_,X,_,X,1,X
+X,B,_,_,_,L,_,_,_,C,X
+X,X,X,X,X,X,X,X,X,X,X
+data...
+Wed Apr 02 2014 00:17:37 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:37 GMT-0500 (COT) socket data for bot3 BS
+data...
+Wed Apr 02 2014 00:17:37 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:37 GMT-0500 (COT) socket data for bot3 
+data...
+Wed Apr 02 2014 00:17:37 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:37 GMT-0500 (COT) socket data for bot1 N
+data...
+Wed Apr 02 2014 00:17:37 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:37 GMT-0500 (COT) socket data for bot2 BE
+data...
+Wed Apr 02 2014 00:17:37 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:37 GMT-0500 (COT) socket data for Killerbot BO
+jugar partida...
+Wed Apr 02 2014 00:17:38 GMT-0500 (COT) jugador bot1 accion: N
+Wed Apr 02 2014 00:17:38 GMT-0500 (COT) jugador bot2 accion: BE
+Wed Apr 02 2014 00:17:38 GMT-0500 (COT) jugador Killerbot accion: BO
+Wed Apr 02 2014 00:17:38 GMT-0500 (COT) jugador bot3 accion: BS
+C ha cometido suicidio!
+Wed Apr 02 2014 00:17:38 GMT-0500 (COT) Turno: --4--
+Wed Apr 02 2014 00:17:38 GMT-0500 (COT)
+ X,X,X,X,X,X,X,X,X,X,X
+X,A,_,_,_,L,_,_,_,_,X
+X,_,X,_,X,_,X,_,X,D,X
+X,_,_,_,_,_,_,_,_,2,X
+X,_,X,_,X,L,X,_,X,_,X
+X,L,_,_,L,L,L,_,_,L,X
+X,_,X,_,X,L,X,_,X,_,X
+X,_,_,_,_,_,_,_,_,#,X
+X,_,X,_,X,_,X,_,X,#,X
+X,B,2,_,_,L,_,_,_,c,X
+X,X,X,X,X,X,X,X,X,X,X
+Wed Apr 02 2014 00:17:38 GMT-0500 (COT) Killerbot C muerto. total puntos: 0
+data...
+Wed Apr 02 2014 00:17:38 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:38 GMT-0500 (COT) socket data for bot1 S
+data...
+Wed Apr 02 2014 00:17:38 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:38 GMT-0500 (COT) socket data for bot2 BS
+data...
+Wed Apr 02 2014 00:17:38 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:38 GMT-0500 (COT) socket data for bot3 BN
+end...
+close...
+Wed Apr 02 2014 00:17:38 GMT-0500 (COT) error updating user null
+Wed Apr 02 2014 00:17:38 GMT-0500 (COT) error updating user null
+jugar partida...
+Wed Apr 02 2014 00:17:39 GMT-0500 (COT) jugador bot1 accion: S
+Wed Apr 02 2014 00:17:39 GMT-0500 (COT) jugador bot2 accion: BS
+Wed Apr 02 2014 00:17:39 GMT-0500 (COT) jugador bot3 accion: BN
+Wed Apr 02 2014 00:17:39 GMT-0500 (COT) Turno: --5--
+Wed Apr 02 2014 00:17:39 GMT-0500 (COT)
+ X,X,X,X,X,X,X,X,X,X,X
+X,_,_,_,_,L,_,_,_,_,X
+X,A,X,_,X,_,X,_,X,D,X
+X,_,_,_,_,_,_,_,_,1,X
+X,_,X,_,X,L,X,_,X,_,X
+X,L,_,_,L,L,L,_,_,L,X
+X,_,X,_,X,L,X,_,X,_,X
+X,_,_,_,_,_,_,_,_,_,X
+X,_,X,_,X,_,X,_,X,_,X
+X,B,1,_,_,L,_,_,_,_,X
+X,X,X,X,X,X,X,X,X,X,X
+data...
+Wed Apr 02 2014 00:17:39 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:39 GMT-0500 (COT) socket data for bot1 BS
+data...
+Wed Apr 02 2014 00:17:39 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:39 GMT-0500 (COT) socket data for bot1 
+data...
+Wed Apr 02 2014 00:17:39 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:39 GMT-0500 (COT) socket data for bot2 E
+data...
+Wed Apr 02 2014 00:17:39 GMT-0500 (COT) socket status: playing
+Wed Apr 02 2014 00:17:39 GMT-0500 (COT) socket data for bot3 BE
+jugar partida...
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) jugador bot1 accion: BS
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) jugador bot2 accion: E
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) jugador bot3 accion: BE
+B ha cometido suicidio!
+D ha cometido suicidio!
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) Turno: --6--
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT)
+ X,X,X,X,X,X,X,X,X,X,X
+X,_,_,_,_,L,_,_,_,_,X
+X,A,X,_,X,_,X,_,X,d,X
+X,2,_,_,_,_,_,_,#,#,X
+X,_,X,_,X,L,X,_,X,#,X
+X,L,_,_,L,L,L,_,_,L,X
+X,_,X,_,X,L,X,_,X,_,X
+X,_,_,_,_,_,_,_,_,_,X
+X,_,X,_,X,_,X,_,X,_,X
+X,b,#,#,_,L,_,_,_,_,X
+X,X,X,X,X,X,X,X,X,X,X
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) bot3 D muerto. total puntos: 0
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) bot2 B muerto. total puntos: 0
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) bot1 A gano. total puntos: 0
+duracion partida: 6008ms
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) puntuacion total: 
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) C Killerbot puntos: 0
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) A bot1 puntos: 0
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) B bot2 puntos: 0
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) D bot3 puntos: 0
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) undefined undefined puntos: undefined
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) undefined undefined puntos: undefined
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) undefined undefined puntos: undefined
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) se guardo
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) null
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) null
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) null
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) null
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) null
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) error saving putio null
+data...
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) socket status: waiting
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) socket data for bot1 O
+Wed Apr 02 2014 00:17:40 GMT-0500 (COT) bot1 mientras waiting O
+Wed Apr 02 2014 00:17:42 GMT-0500 (COT) waiting players... connected: 3
+Wed Apr 02 2014 00:17:47 GMT-0500 (COT) waiting players... connected: 3
+Wed Apr 02 2014 00:17:52 GMT-0500 (COT) waiting players... connected: 3
+Wed Apr 02 2014 00:17:57 GMT-0500 (COT) waiting players... connected: 3
+Wed Apr 02 2014 00:18:02 GMT-0500 (COT) waiting players... connected: 3
+Wed Apr 02 2014 00:18:07 GMT-0500 (COT) waiting players... connected: 3
+Wed Apr 02 2014 00:18:12 GMT-0500 (COT) waiting players... connected: 3
