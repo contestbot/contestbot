@@ -47,11 +47,20 @@ class Bot
         @y = pos / rows.length
         @x = pos % rows.length
 # puts "Position: #@x,#@y"
+
         creates_elements_map(map)
 # print print_map(@map_elements,true,false,true)
  #       remove_bombs_elements(1)
 #     print_map(@map_elements,true,false,true)
-        identify_powers()
+      strategy = defineStrategy()
+
+      escape_boms(@x,@y)
+      if(strategy == 1)
+
+      else (strategy == 2)
+          identify_powers()
+      end
+
 #print "\nPowers:\n"
 #@powers.each{|x| print x," "}
 #print_map(@last_map_elements,true,false,false)
@@ -65,14 +74,17 @@ class Bot
              @map_elements.push(Element.new(i,j,item,Math.sqrt((@x-i)**2+(@y-j)**2)))
            end
          end
-       # puts "#{i},#{j}:#{item}"
+     ##  puts "#{i},#{j}:#{item}"
        end
      end
+
      @mapbydistance=@map_elements.sort_by{ |element| [ element.get_distance(),element.get_value()] }
      @mapbydistance=@map_elements.sort_by{ |element| [ element.get_value(),element.get_value()] }
      @mapbydistance=@map_elements.sort_by{ |element| [ element.get_y(),element.get_x()] }
      @mapbydistance=@map_elements.sort_by{ |element| [ element.get_distance(),element.get_type()] }
      @mapbydistance=@map_elements.sort_by{ |element| [ element.get_type(),element.get_y(),element.get_x()] }
+
+     ## puts @mapbydistance[0].get_distance()
     end
 
     def move
@@ -80,6 +92,7 @@ class Bot
       position=@map_elements.max_by do |element|
         element.get_rank()
       end
+
       difx=@x-position.get_x()
       dify=@y-position.get_y()
         case (difx)
@@ -287,5 +300,14 @@ class Bot
     else
       return 0
     end
+  end
+
+
+  def defineStrategy()
+    players_map=@map_elements.select{|element|element.get_type()==2}
+    if(players_map.length > 2 )
+      return 1 ##pasiva
+    end
+    return 2 ## activa
   end
 end
