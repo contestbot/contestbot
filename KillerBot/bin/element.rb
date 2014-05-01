@@ -6,6 +6,7 @@ class Element
     @type=0
     @rank=0
     @weight=0
+    @bomb = false
 
     def initialize(x,y,value,distance)
         @x = x
@@ -70,5 +71,13 @@ class Element
     end
     def set_rank(rank)
       @rank=rank
+    end
+
+    def get_bomb()
+      return @bomb
+    end
+
+    def set_bomb(bomb)
+      @bomb=bomb
     end
 end

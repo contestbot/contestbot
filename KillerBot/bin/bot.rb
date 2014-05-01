@@ -12,7 +12,6 @@ class Bot
         @powers=[0,0,0,0]  #A,B,C,D P=1,V=2,PV=3
         @map_elements=[]
         @last_map_elements=[]
-#puts "Letter: " + @letter
     end
 
     def get_map_elements
@@ -36,7 +35,6 @@ class Bot
     end
 
     def update_map(mapa)
-#puts mapa
         rows = mapa.split("\n")
         map = []
         rows.each_with_index do |row, index|
@@ -46,24 +44,21 @@ class Bot
         pos = mapa.index(@letter) / 2
         @y = pos / rows.length
         @x = pos % rows.length
-# puts "Position: #@x,#@y"
 
         creates_elements_map(map)
-# print print_map(@map_elements,true,false,true)
- #       remove_bombs_elements(1)
-#     print_map(@map_elements,true,false,true)
-      strategy = defineStrategy()
+        strategy = defineStrategy()
+
 
       escape_boms(@x,@y)
       if(strategy == 1)
 
+        puts "pasiva"
       else (strategy == 2)
+          puts "activa"
           identify_powers()
+          put_bombs(@x,@y)
       end
 
-#print "\nPowers:\n"
-#@powers.each{|x| print x," "}
-#print_map(@last_map_elements,true,false,false)
     end
 
     def creates_elements_map(map)
@@ -95,21 +90,34 @@ class Bot
 
       difx=@x-position.get_x()
       dify=@y-position.get_y()
+        puts difx
         case (difx)
           when 0
             case(dify)
               when 1
+                if(position.get_bomb )
+                  return "NB"
+                end
                 mov="N"
               when -1
+                if(position.get_bomb )
+                  return "SB"
+                end
                 mov="S"
             end
           when 1
+            if(position.get_bomb )
+              return "OB"
+            end
             mov="O"
           when -1
+            if(position.get_bomb )
+              return "EB"
+            end
             mov="E"
         end
       puts "mov#{mov}"
-=begin
+
         case mov
             when 0
                 return "N"
@@ -130,7 +138,6 @@ class Bot
             when 8
                 return "P"
         end
-=end
 
     end
 
@@ -169,8 +176,6 @@ class Bot
         }
       }
 
-    #  print_map(powers_map,true,true,true)
-    #  print_map(players_map,true,true,true)
     end
 
     def update_last_map
@@ -183,7 +188,6 @@ class Bot
         xp=elementB.get_x()
         yp=elementB.get_y()
         return Math.sqrt((x-xp)**2+(y-yp)**2)
-     #     print player.get_value(),"-",power.get_value(),":",,"\n"
     end
 
     def print_map(map,graphic_map,elements_list,size_list)
@@ -195,37 +199,6 @@ class Bot
         puts "Size: #{map.size()}"
       end
       if (graphic_map==true)
-
-
-=begin
-        for i in 1..9 do
-           j=1
-           mapt=map
-           mapt=mapt.select{|element| element.get_y()==i }
-           mapt.each{|x|
-             dif=x.get_x()-j
-              for k in 1..dif+1 do
-                dif=x.get_x()-j
-                   if(dif==0)
-                     print x.get_value(),","
-                   else
-                     print "?,"
-                   end
-                j=j+1
-              end
-           }
-           while(j<10)
-             print "?,"
-             j=j+1
-           end
-          print "\n"
-        end
-        print "\n"
-=end
-
-
-
-
         out=""
         for i in 1..9 do
           j=1
@@ -262,9 +235,7 @@ class Bot
 
   def escape_boms(x,y)
       tmp_map=@map_elements
-#      map_escape=tmp_map.select{|element| element.get_distance()==1}
       map_escape=neighbors(tmp_map,x,y)
-#      print print_map(map_escape,true,true,true)
         tmp_map.delete_if{ |element|element.get_x()==x && element.get_y()==y }
         print print_map(tmp_map,true,false,true)
         map_escape.each{|position|
@@ -276,10 +247,28 @@ class Bot
 #           end
           }
 
- #         escape_boms(position.get_x(),position.get_y())
-#        print "\n",position.get_x(),",",position.get_y()," Weight: ",position.get_rank(),"\n", map_neighbors
         }
   end
+
+    def put_bombs(x,y)
+      players_map=@map_elements.select{|element|element.get_type()==2}
+      for i in 0..players_map.length()-1 do
+        puts players_map[i].get_y()
+        if (@y-players_map[i].get_y() == 0 && @x-players_map[i].get_x()< 2 )
+          players_map[i].set_rank(players_map[i].get_rank()+1)
+          players_map[i].set_bomb(true)
+        end
+        if (@y-players_map[i].get_y() < 2 && @x-players_map[i].get_x()==0 )
+          players_map[i].set_rank(players_map[i].get_rank()+1)
+          players_map[i].set_bomb(true)
+        end
+        if (@y-players_map[i].get_y() < 2 && @x-players_map[i].get_x()<2 )
+          players_map[i].set_rank(players_map[i].get_rank()+1)
+          players_map[i].set_bomb(true)
+        end
+
+      end
+    end
 
   def neighbors(map,position_x,position_y)
     return map_neighbors=map.select{|element| ((element.get_x()==position_x-1 ||element.get_x()==position_x+1)&& element.get_y()==position_y) ||
@@ -308,6 +297,9 @@ class Bot
     if(players_map.length > 2 )
       return 1 ##pasiva
     end
-    return 2 ## activa
+    if(players_map.length == 2 )
+      return 2 ##activa
+    end
+    return 3 ## random
   end
 end
