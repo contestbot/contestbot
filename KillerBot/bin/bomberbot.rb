@@ -37,6 +37,7 @@ class BomberBot
         bot.take_decision
         bot.update_last_map
         msg = bot.move
+        print "\nMove: ",msg,"\n"
         @socket_cliente.puts(msg)
       elsif message[0] == "PERDIO"
         puts "perdi :("

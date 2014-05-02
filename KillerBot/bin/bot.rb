@@ -44,14 +44,14 @@ class Bot
       pos = mapa.index(@letter) / 2
       @y = pos / rows.length
       @x = pos % rows.length
-# puts "Position: #@x,#@y"
+ puts "Position: #@x,#@y"
       creates_elements_map(map)
       update_last_powers()
       identify_enemies_moves()
-# print print_map(@map_elements,true,false,true)
+ print print_map(@map_elements,true,false,true)
 #       remove_bombs_elements(1)
 #     print_map(@map_elements,true,false,true)
-      identify_powers()
+#      identify_powers()
 #print "\nPowers:\n"
 #@powers.each{|x| print x," "}
 #print_map(@last_map_elements,true,false,false)
@@ -71,11 +71,13 @@ class Bot
        end
      end
 
+=begin
      @mapbydistance=@map_elements.sort_by{ |element| [ element.get_distance(),element.get_value()] }
      @mapbydistance=@map_elements.sort_by{ |element| [ element.get_value(),element.get_value()] }
      @mapbydistance=@map_elements.sort_by{ |element| [ element.get_y(),element.get_x()] }
      @mapbydistance=@map_elements.sort_by{ |element| [ element.get_distance(),element.get_type()] }
      @mapbydistance=@map_elements.sort_by{ |element| [ element.get_type(),element.get_y(),element.get_x()] }
+=end
 
      ## puts @mapbydistance[0].get_distance()
     end
@@ -359,7 +361,7 @@ class Bot
     end
     map_rank=@map_elements.select{|element| element.get_rank()>0}
     if(map_rank.size()==0)
-      print "map rank:",print_map(map_rank,true,true,true)
+#      print "map rank:",print_map(map_rank,true,true,true)
       search_best_position(@x,@y,3)
     end
     #move()
@@ -381,7 +383,7 @@ class Bot
     map_powers.each{|power|
       power.set_rank(power.get_rank()+power.get_weight())
     }
-    print print_map(map_powers,true,false,true)
+ #   print print_map(map_powers,true,false,true)
   end
 
   def destroy_blocks(map_neighbors_distance_1,map_neighbors_distance_2)
@@ -396,7 +398,7 @@ class Bot
         end
       }
     }
-      print print_map(map_blocks,true,false,true)
+ #     print print_map(map_blocks,true,false,true)
   end
 
   def destroy_enemies(map_neighbors_distance_1,map_neighbors_distance_2)
@@ -411,7 +413,7 @@ class Bot
           end
         }
       }
-      print print_map(map_enemies,true,false,true)
+#      print print_map(map_enemies,true,false,true)
     end
 
   def assess_near_elements(strategy=1)
@@ -423,7 +425,7 @@ class Bot
        elsif(strategy==2)
          destroy_enemies(map_neighbors_distance_1,map_neighbors_distance_2)
       end
-      print print_map(map_neighbors_distance_2,true,false,true)
+#      print print_map(map_neighbors_distance_2,true,false,true)
   end
 
   def search_best_position(x,y,depth)

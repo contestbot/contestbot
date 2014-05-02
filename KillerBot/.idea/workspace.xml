@@ -25,7 +25,7 @@
     <SUITE FILE_PATH="coverage/KillerBot@Run_test__test_map_blocks___KillerBot.coverage" NAME="Run test 'test_map_blocks': KillerBot Coverage Results" MODIFIED="1398986026422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
     <SUITE FILE_PATH="coverage/KillerBot@Run_test__test_remove_bombs_influence___KillerBot.coverage" NAME="Run test 'test_remove_bombs_influence': KillerBot Coverage Results" MODIFIED="1399030829112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
     <SUITE FILE_PATH="coverage/KillerBot@Run_test__test_map_strategies___KillerBot.coverage" NAME="Run test 'test_map_strategies': KillerBot Coverage Results" MODIFIED="1398986034720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
-    <SUITE FILE_PATH="coverage/KillerBot@bomberbot.coverage" NAME="bomberbot Coverage Results" MODIFIED="1399054305490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" MODULE_NAME="KillerBot" />
+    <SUITE FILE_PATH="coverage/KillerBot@bomberbot.coverage" NAME="bomberbot Coverage Results" MODIFIED="1399055533040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" MODULE_NAME="KillerBot" />
     <SUITE FILE_PATH="coverage/KillerBot@Run_test__test_near_elements___KillerBot.coverage" NAME="Run test 'test_near_elements': KillerBot Coverage Results" MODIFIED="1399031313213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
     <SUITE FILE_PATH="coverage/KillerBot@Run_test__test_bot_map___KillerBot.coverage" NAME="Run test 'test_bot_map': KillerBot Coverage Results" MODIFIED="1398660483726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
     <SUITE FILE_PATH="coverage/KillerBot@Run_test__test_map_best_position___KillerBot.coverage" NAME="Run test 'test_map_best_position': KillerBot Coverage Results" MODIFIED="1399031036109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
@@ -45,19 +45,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bot.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bot.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/bot.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="491" column="22" selection-start="16325" selection-end="16325" vertical-scroll-proportion="0.84682715" vertical-offset="7573" max-vertical-offset="8500">
+            <state line="363" column="1" selection-start="12075" selection-end="12075" vertical-scroll-proportion="-7.24" vertical-offset="5990" max-vertical-offset="8534">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bomberbot.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bomberbot.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bin/bomberbot.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="935">
+            <state line="39" column="17" selection-start="978" selection-end="978" vertical-scroll-proportion="0.6368078" vertical-offset="272" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
@@ -95,8 +95,8 @@
         <option value="$PROJECT_DIR$/test/test_remove_bombs_influence.rb" />
         <option value="$PROJECT_DIR$/test/test_map_best_position.rb" />
         <option value="$PROJECT_DIR$/test/test_take_decision.rb" />
-        <option value="$PROJECT_DIR$/bin/bomberbot.rb" />
         <option value="$PROJECT_DIR$/bin/bot.rb" />
+        <option value="$PROJECT_DIR$/bin/bomberbot.rb" />
       </list>
     </option>
   </component>
@@ -488,7 +488,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39957938" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.362423" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -782,16 +782,16 @@
         <state line="13" column="269" selection-start="333" selection-end="588" vertical-scroll-proportion="0.14561664" vertical-offset="123" max-vertical-offset="1173" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/bomberbot.rb">
+    <entry file="file://$PROJECT_DIR$/bin/bot.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="935">
+        <state line="363" column="1" selection-start="12075" selection-end="12075" vertical-scroll-proportion="-7.24" vertical-offset="5990" max-vertical-offset="8534">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/bot.rb">
+    <entry file="file://$PROJECT_DIR$/bin/bomberbot.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="491" column="22" selection-start="16325" selection-end="16325" vertical-scroll-proportion="0.84682715" vertical-offset="7573" max-vertical-offset="8500">
+        <state line="39" column="17" selection-start="978" selection-end="978" vertical-scroll-proportion="0.6368078" vertical-offset="272" max-vertical-offset="952">
           <folding />
         </state>
       </provider>
