@@ -16,28 +16,28 @@ class Element
         case @value
           when "a","b","c","d"
             @type=9
-            @weight=0
+            @weight=1
           when "X"
             @type=8
             @weight=0
           when "#"
             @type=7
-            @weight=0
+            @weight=1
           when "L"
             @type=6
             @weight=2
           when "_"
             @type=5
-            @weight=1
+            @weight=3
           when "V"
             @type=4
-            @weight=3
+            @weight=4
           when "P"
             @type=3
-            @weight=3
+            @weight=5
           when "A","B","C","D"
             @type=2
-            @weight=4
+            @weight=1
           when "2"
             @type=1.1
             @weight=-1

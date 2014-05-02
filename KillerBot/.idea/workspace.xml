@@ -12,14 +12,17 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/KillerBot@Run_test__test_map_strategies___KillerBot.coverage" NAME="Run test 'test_map_strategies': KillerBot Coverage Results" MODIFIED="1398763593289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
+    <SUITE FILE_PATH="coverage/KillerBot@Run_test__test_map_strategies___KillerBot.coverage" NAME="Run test 'test_map_strategies': KillerBot Coverage Results" MODIFIED="1398986034720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
     <SUITE FILE_PATH="coverage/KillerBot@bomberbot.coverage" NAME="bomberbot Coverage Results" MODIFIED="1398569791779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" MODULE_NAME="KillerBot" />
     <SUITE FILE_PATH="coverage/KillerBot@Run_test__test_bot_map___KillerBot.coverage" NAME="Run test 'test_bot_map': KillerBot Coverage Results" MODIFIED="1398660483726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
+    <SUITE FILE_PATH="coverage/KillerBot@Run_test__test_near_elements___KillerBot.coverage" NAME="Run test 'test_near_elements': KillerBot Coverage Results" MODIFIED="1398994815448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
     <SUITE FILE_PATH="coverage/KillerBot@Run_test__test_map_powers___KillerBot.coverage" NAME="Run test 'test_map_powers': KillerBot Coverage Results" MODIFIED="1398660345093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
     <SUITE FILE_PATH="coverage/KillerBot@Test_Update_Map.coverage" NAME="Test_Update_Map Coverage Results" MODIFIED="1398652574615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
-    <SUITE FILE_PATH="coverage/KillerBot@All_tests_in_test__KillerBot.coverage" NAME="All tests in test: KillerBot Coverage Results" MODIFIED="1398739426835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
     <SUITE FILE_PATH="coverage/KillerBot@Test_Map.coverage" NAME="Test_Map Coverage Results" MODIFIED="1398652250207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
+    <SUITE FILE_PATH="coverage/KillerBot@All_tests_in_test__KillerBot.coverage" NAME="All tests in test: KillerBot Coverage Results" MODIFIED="1398994804368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
     <SUITE FILE_PATH="coverage/KillerBot@Run_test__test_map_bombs___KillerBot.coverage" NAME="Run test 'test_map_bombs': KillerBot Coverage Results" MODIFIED="1398664417097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
+    <SUITE FILE_PATH="coverage/KillerBot@Run_test__test_moves___KillerBot.coverage" NAME="Run test 'test_moves': KillerBot Coverage Results" MODIFIED="1398984353264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
+    <SUITE FILE_PATH="coverage/KillerBot@Run_test__test_map_blocks___KillerBot.coverage" NAME="Run test 'test_map_blocks': KillerBot Coverage Results" MODIFIED="1398986026422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="KillerBot" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -36,7 +39,7 @@
       <file leaf-file-name="bomberbot.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/bomberbot.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="42" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="901">
+            <state line="32" column="42" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="969">
               <folding />
             </state>
           </provider>
@@ -45,7 +48,7 @@
       <file leaf-file-name="test_bot_map.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_bot_map.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1726" selection-end="1764" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1173">
+            <state line="40" column="0" selection-start="1726" selection-end="1764" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1173">
               <folding />
             </state>
           </provider>
@@ -54,7 +57,7 @@
       <file leaf-file-name="test_map_powers.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_map_powers.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="953" selection-end="984" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+            <state line="20" column="0" selection-start="953" selection-end="984" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
@@ -63,7 +66,7 @@
       <file leaf-file-name="test_map_blocks.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_map_blocks.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="867">
+            <state line="26" column="26" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
@@ -72,7 +75,7 @@
       <file leaf-file-name="test_map_bombs.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_map_bombs.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0" vertical-offset="313" max-vertical-offset="986">
+            <state line="14" column="0" selection-start="541" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
@@ -81,7 +84,25 @@
       <file leaf-file-name="test_map_strategies.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_map_strategies.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="55" selection-start="4635" selection-end="4635" vertical-scroll-proportion="0.0" vertical-offset="1887" max-vertical-offset="2516">
+            <state line="135" column="0" selection-start="5451" selection-end="5451" vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="2652">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_near_elements.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_near_elements.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="122" column="61" selection-start="5618" selection-end="5618" vertical-scroll-proportion="0.0" vertical-offset="1910" max-vertical-offset="2856">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_moves.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_moves.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="1" selection-start="965" selection-end="1682" vertical-scroll-proportion="0.0" vertical-offset="422" max-vertical-offset="1071">
               <folding />
             </state>
           </provider>
@@ -90,7 +111,7 @@
       <file leaf-file-name="element.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/element.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="22" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
+            <state line="36" column="21" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1513">
               <folding />
             </state>
           </provider>
@@ -99,14 +120,13 @@
       <file leaf-file-name="bot.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bin/bot.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="18" selection-start="2512" selection-end="2512" vertical-scroll-proportion="0.5109983" vertical-offset="1041" max-vertical-offset="3026">
+            <state line="258" column="28" selection-start="7839" selection-end="7839" vertical-scroll-proportion="0.5102703" vertical-offset="2979" max-vertical-offset="4964">
               <folding>
-                <element signature="e#1203#2080#0" expanded="false" />
-                <element signature="e#3021#3460#0" expanded="false" />
-                <element signature="e#4409#4475#0" expanded="false" />
-                <element signature="e#4481#4757#0" expanded="false" />
-                <element signature="e#4763#6354#0" expanded="false" />
-                <element signature="e#6391#7426#0" expanded="false" />
+                <element signature="e#2947#3386#0" expanded="false" />
+                <element signature="e#4246#4312#0" expanded="false" />
+                <element signature="e#4318#4526#0" expanded="false" />
+                <element signature="e#4532#5525#0" expanded="false" />
+                <element signature="e#7045#7415#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -129,10 +149,12 @@
         <option value="$PROJECT_DIR$/test/Test_Map.rb" />
         <option value="$PROJECT_DIR$/test/test_map_powers.rb" />
         <option value="$PROJECT_DIR$/test/test_bot_map.rb" />
-        <option value="$PROJECT_DIR$/test/test_map_blocks.rb" />
         <option value="$PROJECT_DIR$/test/test_map_bombs.rb" />
-        <option value="$PROJECT_DIR$/bin/element.rb" />
+        <option value="$PROJECT_DIR$/test/test_moves.rb" />
+        <option value="$PROJECT_DIR$/test/test_map_blocks.rb" />
         <option value="$PROJECT_DIR$/test/test_map_strategies.rb" />
+        <option value="$PROJECT_DIR$/bin/element.rb" />
+        <option value="$PROJECT_DIR$/test/test_near_elements.rb" />
         <option value="$PROJECT_DIR$/bin/bot.rb" />
       </list>
     </option>
@@ -169,7 +191,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,20 +239,23 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="SearchEverywhereHistory" value="&#10;++" />
-    <property name="last_opened_file_path" value="D:/Ruby Samples" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\KillerBot\KillerBot\test" />
       <recent name="D:\contestbot\KillerBot\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'test_map_strategies': KillerBot">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'test_near_elements': KillerBot">
     <configuration default="false" name="All tests in test: KillerBot" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="KillerBot" />
@@ -259,60 +283,6 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Run test 'test_bot_map': KillerBot" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="KillerBot" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/test_bot_map.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Run test 'test_map_bombs': KillerBot" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="KillerBot" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/test_map_bombs.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="Run test 'test_map_powers': KillerBot" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="KillerBot" />
@@ -330,6 +300,87 @@
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/test_map_powers.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Run test 'test_map_blocks': KillerBot" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="KillerBot" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/test_map_blocks.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Run test 'test_moves': KillerBot" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="KillerBot" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/test_moves.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Run test 'test_near_elements': KillerBot" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="KillerBot" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/test_near_elements.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -459,46 +510,21 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
-    <configuration default="false" name="Run test 'test_map_strategies': KillerBot" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="KillerBot" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/test_map_strategies.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'test_map_strategies': KillerBot" />
       <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: KillerBot" />
-      <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'test_bot_map': KillerBot" />
-      <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'test_map_bombs': KillerBot" />
-      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'test_map_powers': KillerBot" />
+      <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'test_map_powers': KillerBot" />
+      <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'test_map_blocks': KillerBot" />
+      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'test_moves': KillerBot" />
+      <item index="5" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'test_near_elements': KillerBot" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: KillerBot" />
-        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'test_map_bombs': KillerBot" />
-        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'test_bot_map': KillerBot" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'test_near_elements': KillerBot" />
+        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'test_moves': KillerBot" />
+        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'test_map_blocks': KillerBot" />
         <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'test_map_powers': KillerBot" />
+        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: KillerBot" />
       </list>
     </recent_temporary>
   </component>
@@ -532,25 +558,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843652" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39957938" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33017877" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13631523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35120925" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14057508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39957938" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31519508" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948583" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -577,29 +603,250 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bin/bomberbot.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="48" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+        <state line="32" column="42" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_bot_map.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1726" selection-end="1764" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_map_powers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="953" selection-end="984" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_map_blocks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="26" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_map_bombs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="541" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_map_strategies.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="0" selection-start="5451" selection-end="5451" vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="2652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_near_elements.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="61" selection-start="5618" selection-end="5618" vertical-scroll-proportion="0.0" vertical-offset="1910" max-vertical-offset="2856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_moves.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="1" selection-start="965" selection-end="1682" vertical-scroll-proportion="0.0" vertical-offset="422" max-vertical-offset="1071">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/element.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="544">
+        <state line="36" column="21" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1513">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/bot.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="6" selection-start="922" selection-end="935" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1292">
+        <state line="205" column="39" selection-start="5618" selection-end="5618" vertical-scroll-proportion="0.0" vertical-offset="3485" max-vertical-offset="4947">
           <folding>
-            <element signature="e#1203#2080#0" expanded="false" />
-            <element signature="e#3021#3460#0" expanded="false" />
-            <element signature="e#4409#4475#0" expanded="false" />
-            <element signature="e#4481#4757#0" expanded="false" />
-            <element signature="e#4763#6354#0" expanded="false" />
-            <element signature="e#6391#7426#0" expanded="false" />
+            <element signature="e#2947#3386#0" expanded="false" />
+            <element signature="e#4246#4312#0" expanded="false" />
+            <element signature="e#4318#4526#0" expanded="false" />
+            <element signature="e#4532#5525#0" expanded="false" />
+            <element signature="e#7045#7415#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/bomberbot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="42" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_bot_map.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1726" selection-end="1764" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_map_powers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="953" selection-end="984" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_map_blocks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="26" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_map_bombs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="541" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_map_strategies.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="0" selection-start="5451" selection-end="5451" vertical-scroll-proportion="0.0" vertical-offset="1964" max-vertical-offset="2652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_near_elements.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="61" selection-start="5618" selection-end="5618" vertical-scroll-proportion="0.0" vertical-offset="1910" max-vertical-offset="2856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_moves.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="1" selection-start="965" selection-end="1682" vertical-scroll-proportion="0.0" vertical-offset="422" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/element.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="21" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/bot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="319" column="9" selection-start="10088" selection-end="10088" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4539">
+          <folding>
+            <element signature="e#2947#3386#0" expanded="false" />
+            <element signature="e#4246#4312#0" expanded="false" />
+            <element signature="e#4318#4526#0" expanded="false" />
+            <element signature="e#4532#5525#0" expanded="false" />
+            <element signature="e#7045#7415#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/bomberbot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="42" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_bot_map.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1726" selection-end="1764" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_map_powers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="953" selection-end="984" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_map_blocks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="26" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_map_bombs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="541" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_map_strategies.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="0" selection-start="5451" selection-end="5451" vertical-scroll-proportion="0.0" vertical-offset="1964" max-vertical-offset="2652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_near_elements.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="24" selection-start="3117" selection-end="3117" vertical-scroll-proportion="0.0" vertical-offset="797" max-vertical-offset="1683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_moves.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="1" selection-start="965" selection-end="1682" vertical-scroll-proportion="0.0" vertical-offset="422" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/element.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="21" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/bot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="289" column="18" selection-start="8854" selection-end="8854" vertical-scroll-proportion="0.0" vertical-offset="4913" max-vertical-offset="5729">
+          <folding>
+            <element signature="e#2947#3386#0" expanded="false" />
+            <element signature="e#4246#4312#0" expanded="false" />
+            <element signature="e#4318#4526#0" expanded="false" />
+            <element signature="e#4532#5525#0" expanded="false" />
+            <element signature="e#7045#7415#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/bomberbot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="42" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_bot_map.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1726" selection-end="1764" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_map_powers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="953" selection-end="984" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="867">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -617,9 +864,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_map_powers.rb">
+    <entry file="file://$PROJECT_DIR$/test/test_map_strategies.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="953" selection-end="984" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+        <state line="117" column="55" selection-start="4635" selection-end="4635" vertical-scroll-proportion="0.0" vertical-offset="1887" max-vertical-offset="2516">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/element.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="19" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/bot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="18" selection-start="2301" selection-end="2301" vertical-scroll-proportion="0.0" vertical-offset="1615" max-vertical-offset="5287">
+          <folding>
+            <element signature="e#2947#3386#0" expanded="false" />
+            <element signature="e#4246#4312#0" expanded="false" />
+            <element signature="e#4318#4526#0" expanded="false" />
+            <element signature="e#4532#5525#0" expanded="false" />
+            <element signature="e#7045#7415#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/bomberbot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="48" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/element.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/bot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="6" selection-start="922" selection-end="935" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1292">
+          <folding>
+            <element signature="e#2947#3386#0" expanded="false" />
+            <element signature="e#4246#4312#0" expanded="false" />
+            <element signature="e#4318#4526#0" expanded="false" />
+            <element signature="e#4532#5525#0" expanded="false" />
+            <element signature="e#7045#7415#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/bomberbot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="42" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_map_blocks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="26" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_map_bombs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="541" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="986">
           <folding />
         </state>
       </provider>
@@ -631,37 +946,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/bomberbot.rb">
+    <entry file="file://$PROJECT_DIR$/test/test_map_powers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="42" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="901">
+        <state line="20" column="0" selection-start="953" selection-end="984" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/element.rb">
+    <entry file="file://$PROJECT_DIR$/test/test_moves.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="22" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1360">
+        <state line="27" column="1" selection-start="965" selection-end="1682" vertical-scroll-proportion="0.0" vertical-offset="422" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_near_elements.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="61" selection-start="5618" selection-end="5618" vertical-scroll-proportion="0.0" vertical-offset="1910" max-vertical-offset="2856">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_map_strategies.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="55" selection-start="4635" selection-end="4635" vertical-scroll-proportion="0.0" vertical-offset="1887" max-vertical-offset="2516">
+        <state line="135" column="0" selection-start="5451" selection-end="5451" vertical-scroll-proportion="0.0" vertical-offset="1964" max-vertical-offset="2652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/element.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="21" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1513">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/bot.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="18" selection-start="2512" selection-end="2512" vertical-scroll-proportion="0.5109983" vertical-offset="1041" max-vertical-offset="3026">
+        <state line="258" column="28" selection-start="7839" selection-end="7839" vertical-scroll-proportion="0.5102703" vertical-offset="2979" max-vertical-offset="4964">
           <folding>
-            <element signature="e#1203#2080#0" expanded="false" />
-            <element signature="e#3021#3460#0" expanded="false" />
-            <element signature="e#4409#4475#0" expanded="false" />
-            <element signature="e#4481#4757#0" expanded="false" />
-            <element signature="e#4763#6354#0" expanded="false" />
-            <element signature="e#6391#7426#0" expanded="false" />
+            <element signature="e#2947#3386#0" expanded="false" />
+            <element signature="e#4246#4312#0" expanded="false" />
+            <element signature="e#4318#4526#0" expanded="false" />
+            <element signature="e#4532#5525#0" expanded="false" />
+            <element signature="e#7045#7415#0" expanded="false" />
           </folding>
         </state>
       </provider>

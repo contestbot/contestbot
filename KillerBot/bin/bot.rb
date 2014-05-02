@@ -35,29 +35,24 @@ class Bot
     end
 
     def update_map(mapa)
-        rows = mapa.split("\n")
-        map = []
-        rows.each_with_index do |row, index|
-            map[index] = row.split(",")
+      rows = mapa.split("\n")
+      map = []
+      rows.each_with_index do |row, index|
+        map[index] = row.split(",")
 
-        end
-        pos = mapa.index(@letter) / 2
-        @y = pos / rows.length
-        @x = pos % rows.length
-
-        creates_elements_map(map)
-        strategy = defineStrategy()
-
-
-      escape_boms(@x,@y)
-      if(strategy == 1)
-
-        puts "pasiva"
-      else (strategy == 2)
-          puts "activa"
-          identify_powers()
-          put_bombs(@x,@y)
       end
+      pos = mapa.index(@letter) / 2
+      @y = pos / rows.length
+      @x = pos % rows.length
+# puts "Position: #@x,#@y"
+      creates_elements_map(map)
+# print print_map(@map_elements,true,false,true)
+#       remove_bombs_elements(1)
+#     print_map(@map_elements,true,false,true)
+      identify_powers()
+#print "\nPowers:\n"
+#@powers.each{|x| print x," "}
+#print_map(@last_map_elements,true,false,false)
 
     end
 
@@ -83,11 +78,10 @@ class Bot
     end
 
     def move
-        mov = Random.rand(8)
-      position=@map_elements.max_by do |element|
+      map_neighbors_distance_1=neighbors(@map_elements,@x,@y,1)
+      position=map_neighbors_distance_1.max_by do |element|
         element.get_rank()
       end
-
       difx=@x-position.get_x()
       dify=@y-position.get_y()
         puts difx
@@ -98,47 +92,24 @@ class Bot
                 if(position.get_bomb )
                   return "NB"
                 end
-                mov="N"
+                return "N"
               when -1
                 if(position.get_bomb )
                   return "SB"
                 end
-                mov="S"
+                return "S"
             end
           when 1
             if(position.get_bomb )
               return "OB"
             end
-            mov="O"
+            return  "O"  #Izquierda
           when -1
             if(position.get_bomb )
               return "EB"
             end
-            mov="E"
+            return "E"
         end
-      puts "mov#{mov}"
-
-        case mov
-            when 0
-                return "N"
-            when 1
-                return "E"
-            when 2
-                return "S"
-            when 3
-                return "O"
-            when 4
-                return "BN"
-            when 5
-                return "BE"
-            when 6
-                return "BS"
-            when 7
-                return "BO"
-            when 8
-                return "P"
-        end
-
     end
 
    def remove_bombs_elements(influence)
@@ -229,9 +200,6 @@ class Bot
       end
     end
 
-  def destroy_block(x,y)
-
-  end
 
   def escape_boms(x,y)
       tmp_map=@map_elements
@@ -250,7 +218,7 @@ class Bot
         }
   end
 
-    def put_bombs(x,y)
+    def put_bombs()
       players_map=@map_elements.select{|element|element.get_type()==2}
       for i in 0..players_map.length()-1 do
         puts players_map[i].get_y()
@@ -270,17 +238,31 @@ class Bot
       end
     end
 
-  def neighbors(map,position_x,position_y)
-    return map_neighbors=map.select{|element| ((element.get_x()==position_x-1 ||element.get_x()==position_x+1)&& element.get_y()==position_y) ||
-                                         ((element.get_y()==position_y-1 || element.get_y()==position_y+1)&& element.get_x()==position_x)}
+  def neighbors(map,position_x,position_y,distance=1)
+     return map_neighbors=map.select{|element| ((element.get_x()==position_x-distance ||element.get_x()==position_x+distance)&& element.get_y()==position_y) ||
+                                         ((element.get_y()==position_y-distance || element.get_y()==position_y+distance)&& element.get_x()==position_x)}
   end
 
   def take_decision()
     if(assess_risk()==1)
-      print "Risk: 0"
+      print "I'm at risk, I have to escape the influence of bombs: 1\n"
+      escape_boms(@x,@y)
+      strategy=0
+    else
+      print "I'm not at risk, I have to decide an strategy: 0\n"
+      strategy = defineStrategy()
+      if(strategy == 1)
+        puts "pasiva"
+        assess_near_elements(1)
+      else (strategy == 2)
+      puts "activa"
+      assess_near_elements(2)
+      end
     end
-
+    move()
+    return strategy
   end
+
   def assess_risk()
     remove_bombs_elements(1)
     my_position=@map_elements.select{|element| element.get_value()==@letter}
@@ -289,6 +271,60 @@ class Bot
     else
       return 0
     end
+  end
+
+  def takes_powers(map_neighbors_distance_1)
+    map_powers=map_neighbors_distance_1.select{|element| element.get_type==3 || element.get_type==4}
+    map_powers.each{|power|
+      power.set_rank(power.get_rank()+power.get_weight())
+    }
+    print print_map(map_powers,true,false,true)
+  end
+
+  def destroy_blocks(map_neighbors_distance_1,map_neighbors_distance_2)
+    map_blocks=map_neighbors_distance_2.select{|element| element.get_type==6}
+    map_posible_boms=map_neighbors_distance_1.select{|element| element.get_type==9 || element.get_type==7 || element.get_type==5} ##Posibles ubicaciones bombas
+    map_blocks.each{|block|
+      map_posible_boms.each{|position|
+        distance=distance_two_elements(position,block)
+        if(distance==1 && map_posible_boms.size()>=2)
+          position.set_rank(position.get_rank()+position.get_weight())
+          position.set_bomb(true)
+        end
+      }
+    }
+      print print_map(map_blocks,true,false,true)
+  end
+
+    def destroy_enemies(map_neighbors_distance_1,map_neighbors_distance_2)
+      map_enemies=map_neighbors_distance_2.select{|element| element.get_type==2}
+      map_posible_boms=map_neighbors_distance_1.select{|element| element.get_type==9 || element.get_type==7 || element.get_type==5} ##Posibles ubicaciones bombas
+      map_enemies.each{|enemies|
+        map_posible_boms.each{|position|
+          distance=distance_two_elements(position,enemies)
+          if(distance==1 && map_posible_boms.size()>=2)
+            position.set_rank(position.get_rank()+position.get_weight())
+            position.set_bomb(true)
+          end
+        }
+      }
+      print print_map(map_enemies,true,false,true)
+    end
+
+  def assess_near_elements(strategy=1)
+      map_neighbors_distance_2=neighbors(@map_elements,@x,@y,2)
+      map_neighbors_distance_1=neighbors(@map_elements,@x,@y,1)
+        if(strategy==1)
+          takes_powers(map_neighbors_distance_1)
+          destroy_blocks(map_neighbors_distance_1,map_neighbors_distance_2)
+       elsif(strategy==2)
+         destroy_enemies(map_neighbors_distance_1,map_neighbors_distance_2)
+      end
+      print print_map(map_neighbors_distance_2,true,false,true)
+  end
+
+  def search_best_position()
+  print "searching_new_position"
   end
 
 
