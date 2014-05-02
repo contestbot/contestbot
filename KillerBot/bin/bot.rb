@@ -84,7 +84,6 @@ class Bot
       end
       difx=@x-position.get_x()
       dify=@y-position.get_y()
-        puts difx
         case (difx)
           when 0
             case(dify)
@@ -259,6 +258,7 @@ class Bot
       assess_near_elements(2)
       end
     end
+    search_best_position(@x,@y,3)
     move()
     return strategy
   end
@@ -323,8 +323,59 @@ class Bot
       print print_map(map_neighbors_distance_2,true,false,true)
   end
 
-  def search_best_position()
-  print "searching_new_position"
+  def search_best_position(x,y,depth)
+
+    aux_y = y
+    aux_x = x
+
+    for i in 0..depth do
+      if(aux_x>=0 && aux_y>=0 && aux_x< @map_elements.length() && aux_y<@map_elements.length() )
+        neighbors=neighbors(@map_elements,aux_x,aux_y,1)
+        neighbors.each{|position|
+          position.set_rank(position.get_rank()+position.get_weight())
+        }
+        aux_x=aux_x+1
+      end
+    end
+
+    aux_y =y
+    aux_x= x
+    for i in 0..depth do
+      if(aux_x>=0 && aux_y>=0 && aux_x< @map_elements.length() && aux_y<@map_elements.length() )
+        neighbors=neighbors(@map_elements,aux_x,aux_y,1)
+        neighbors.each{|position|
+          position.set_rank(position.get_rank()+position.get_weight())
+        }
+        aux_x=aux_x-1
+      end
+    end
+
+    aux_y =y
+    aux_x= x
+
+    for i in 0..depth do
+      if(aux_x>=0 && aux_y>=0 && aux_x< @map_elements.length() && aux_y<@map_elements.length() )
+        neighbors=neighbors(@map_elements,aux_x,aux_y,1)
+        neighbors.each{|position|
+          position.set_rank(position.get_rank()+position.get_weight())
+        }
+        aux_y=aux_y-1
+      end
+    end
+
+    aux_y =y
+    aux_x= x
+
+    for i in 0..depth do
+      if(aux_x>=0 && aux_y>=0 && aux_x< @map_elements.length() && aux_y<@map_elements.length() )
+        neighbors=neighbors(@map_elements,aux_x,aux_y,1)
+        neighbors.each{|position|
+          position.set_rank(position.get_rank()+position.get_weight())
+        }
+        aux_y=aux_y+1
+      end
+    end
+
   end
 
 

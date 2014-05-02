@@ -9,7 +9,7 @@ class BomberBot
           mapa ="X,X,X,X,X,X,X,X,X,X,X\n X,_,A,_,_,D,_,_,#,_,X\n X,_,_,_,X,_,X,#,#,#,X\n X,_,_,2,L,L,_,_,#,_,X\n X,_,X,L,X,L,X,_,X,_,X\n X,_,V,L,L,L,L,_,L,_,X\n X,_,X,L,X,L,X,L,X,_,X\n X,_,P,L,L,L,L,L,L,_,X\n X,_,L,L,X,L,X,L,L,_,X\n X,_,_,_,_,_,_,_,_,_,X\n X,X,X,X,X,X,X,X,X,X,X;A;\r\n"
           bot = Bot.new("A")
           bot.update_map(mapa)
-          msg = bot.move
+          msg = bot.take_decision()
         rescue StandardError => e
             puts e
         end
