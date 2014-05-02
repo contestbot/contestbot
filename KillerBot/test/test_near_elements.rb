@@ -68,7 +68,7 @@ class Test_Map < Test::Unit::TestCase
     @bot.remove_bombs_elements(1)
     @bot.assess_near_elements(1)
     out= @bot.move()
-    assert_equal(out,"OB")
+    assert_equal(out,"BO")
     map_out=@bot.print_map(@bot.get_map_elements(),true,false,false)
 
     puts "\nLetter: " + @bot.get_letter()
@@ -85,7 +85,7 @@ class Test_Map < Test::Unit::TestCase
     @bot.remove_bombs_elements(1)
     @bot.assess_near_elements(1)
     out= @bot.move()
-    assert_equal(out,"OB")
+    assert_equal(out,"BO")
     map_out=@bot.print_map(@bot.get_map_elements(),true,false,false)
 
     puts "\nLetter: " + @bot.get_letter()
@@ -102,7 +102,7 @@ class Test_Map < Test::Unit::TestCase
     @bot.remove_bombs_elements(1)
     @bot.assess_near_elements(2)
     out= @bot.move()
-    assert_equal(out,"SB")
+    assert_equal(out,"BS")
     map_out=@bot.print_map(@bot.get_map_elements(),true,false,false)
 
     puts "\nLetter: " + @bot.get_letter()
@@ -119,7 +119,7 @@ class Test_Map < Test::Unit::TestCase
     @bot.remove_bombs_elements(1)
     @bot.assess_near_elements(2)
     out= @bot.move()
-    assert_equal(out,"EB")
+    assert_equal(out,"BE")
     map_out=@bot.print_map(@bot.get_map_elements(),true,false,false)
 
     puts "\nLetter: " + @bot.get_letter()
@@ -130,13 +130,13 @@ class Test_Map < Test::Unit::TestCase
   end
 
   def test_assess_near_when_stratey_active_one_enemy_Este_one_power_Oeste_without_scape_position
-    print "\nTest_assess_near_when_stratey_activeone_enemy_Este_one_power_Oeste_without_scape_position\n"
+    print "\nTest_assess_near_when_stratey_active_one_enemy_Este_one_power_Oeste_without_scape_position\n"
     message = "X,X,X,X,X,X,X,X,X,X,X\nX,_,_,_,L,B,_,D,2,_,X\nX,_,_,_,2,L,L,_,2,L,X\nX,A,_,2,L,_,_,_,#,_,X\nX,_,_,L,_,L,_,_,_,_,X\nX,_,V,L,L,L,L,1,L,_,X\nX,_,_,L,_,L,_,L,_,_,X\nX,C,P,L,L,L,L,L,L,_,X\nX,_,L,L,_,L,_,L,L,_,X\nX,_,_,_,_,_,_,_,_,_,X\nX,X,X,X,X,X,X,X,X,X,X\n"
     @bot.update_map(message)
     @bot.remove_bombs_elements(1)
     @bot.assess_near_elements(2)
     out= @bot.move()
-    assert_equal(out,"E")
+    assert_equal(out,"O")
     map_out=@bot.print_map(@bot.get_map_elements(),true,true,false)
 
     puts "\nLetter: " + @bot.get_letter()

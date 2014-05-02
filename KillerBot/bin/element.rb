@@ -7,6 +7,10 @@ class Element
     @rank=0
     @weight=0
     @bomb = false
+    @created_by = ""
+    @enemy_move = ""
+    @powerp=1
+    @powerv=1
 
     def initialize(x,y,value,distance)
         @x = x
@@ -46,6 +50,10 @@ class Element
             @weight=-2
         end
         @rank=0
+        @created_by = ""
+        @enemy_move = ""
+        @powerp=1
+        @powerv=1
     end
 
     def get_x()
@@ -79,5 +87,33 @@ class Element
 
     def set_bomb(bomb)
       @bomb=bomb
+    end
+
+    def get_created_by()
+      return @created_by
+    end
+    def set_created_by(enemy)
+      @created_by=enemy
+    end
+
+    def get_enemy_move()
+      return @enemy_move
+    end
+    def set_enemy_move(move)
+      @enemy_move=move
+    end
+
+    def get_powerp()
+      return @powerp
+    end
+    def set_powerp(value)
+      @powerp=value
+    end
+
+    def get_powerv()
+      return @powerv
+    end
+    def set_powerv(value)
+      @powerv=value
     end
 end

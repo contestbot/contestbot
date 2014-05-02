@@ -46,6 +46,8 @@ class Bot
       @x = pos % rows.length
 # puts "Position: #@x,#@y"
       creates_elements_map(map)
+      update_last_powers()
+      identify_enemies_moves()
 # print print_map(@map_elements,true,false,true)
 #       remove_bombs_elements(1)
 #     print_map(@map_elements,true,false,true)
@@ -57,6 +59,7 @@ class Bot
     end
 
     def creates_elements_map(map)
+    @map_elements=[]
      map.each_with_index do |row, j|
        row.each_with_index do |item, i|
          if((i>0 and i<row.length-1) and (j>0 and j<row.length-1)) then
@@ -89,36 +92,133 @@ class Bot
             case(dify)
               when 1
                 if(position.get_bomb )
-                  return "NB"
+                  return "BN"
                 end
                 return "N"
               when -1
                 if(position.get_bomb )
-                  return "SB"
+                  return "BS"
                 end
                 return "S"
             end
           when 1
             if(position.get_bomb )
-              return "OB"
+              return "BO"
             end
             return  "O"  #Izquierda
           when -1
             if(position.get_bomb )
-              return "EB"
+              return "BE"
             end
             return "E"
         end
     end
 
-   def remove_bombs_elements(influence)
+   def remove_bombs_elements(influence=1)
      map_bombs=@map_elements.select{|element| element.get_type()==1}
+     map_enemies=@map_elements.select{|element| element.get_type()==2}
+#     print print_map(map_enemies,false,true,false)
+#     print print_map(map_bombs,false,true,false)
+     influence=influence
      map_bombs.each_with_index do |item, i|
        x=item.get_x()
        y=item.get_y()
+       creation_enemy=item.get_created_by()
+       map_enemy= map_enemies.select{|enemy|enemy.get_value()==creation_enemy}
+#       print "\n", print_map(map_enemy,false,true,false),"\n"
+       if(map_enemy.size>0)
+        print "\nemeny_size()", map_enemy.size(),"\n"
+         influence= map_enemy[0].get_powerp()
+#         print "\ninfluence:",map_enemy[0].get_value(),"-",influence,"\n"
+       end
        @map_elements.delete_if{ |element| ((x-influence)<=element.get_x() && element.get_x()<=(x+influence)  && element.get_y()==y) ||  (((y-influence)<=element.get_y() && element.get_y()<=(y+influence))  && element.get_x()==x) }
      end
    end
+
+    def identify_new_bombs()
+      map_bombs=@map_elements.select{|element| element.get_type()==1.1}
+      map_neighbors=[]
+      map_enemies=[]
+      map_bombs.each{|new_bombs|
+        map_neighbors=neighbors(@map_elements,new_bombs.get_x(),new_bombs.get_y())
+        map_enemies=map_neighbors.select{|element|element.get_type()==2}
+        if(map_enemies.size()==1)
+          new_bombs.set_created_by(map_enemies[0].get_value())
+        end
+      }
+#     print print_map(map_enemies,true,false,false)
+    end
+
+    def update_last_powers()
+      if(@last_map_elements.size()>0)
+        last_enemies=@last_map_elements.select{|element| element.get_type==2}
+        last_enemies.each{|enemy|
+         new_enemy=@map_elements.select{|element| element.get_value==enemy.get_value()}
+         new_enemy[0].set_powerp(enemy.get_powerp())
+         new_enemy[0].set_powerv(enemy.get_powerv())
+        }
+        last_bombs=@last_map_elements.select{|element| element.get_type==1.1}
+        last_bombs.each{|bomb|
+          new_bomb=@map_elements.select{|element| element.get_x()==bomb.get_x() && element.get_y()==bomb.get_y()}
+          new_bomb[0].set_created_by(bomb.get_created_by())
+        }
+      end
+    end
+
+
+
+    def identify_enemies_moves()
+      if(@last_map_elements.size()>0)
+        new_map_enemies=@map_elements.select{|element| element.get_type()==2}
+#        print print_map(new_map_enemies,true,false,false)
+        map_neighbors=[]
+        map_bombs=[]
+        new_map_enemies.each{|enemy|
+          last_same_position=@last_map_elements.select{|element| element.get_x()==enemy.get_x() && element.get_y()==enemy.get_y()}
+          last_position=@last_map_elements.select{|element| element.get_value()==enemy.get_value()}
+          case(last_same_position[0].get_value())
+            when("P")
+              enemy.set_powerp(enemy.get_powerp()+1)
+              difx=last_position[0].get_x()-enemy.get_x()
+              dify=last_position[0].get_y()-enemy.get_y()
+            when("V")
+              enemy.set_powerv(enemy.get_powerv()+1)
+              difx=last_position[0].get_x()-enemy.get_x()
+              dify=last_position[0].get_y()-enemy.get_y()
+            when(enemy.get_value())
+              map_neighbors=neighbors(@map_elements,enemy.get_x(),enemy.get_y())
+              map_bombs=map_neighbors.select{|element|element.get_type()==1.1}
+              case(map_bombs.size())
+                when 0
+                  enemy.set_enemy_move("P")
+                when 1
+                  map_bombs[0].set_created_by(enemy.get_value())
+                  enemy.set_enemy_move("B")
+                  difx=enemy.get_x()-map_bombs[0].get_x()
+                  dify=enemy.get_y()-map_bombs[0].get_y()
+#                  print "difx: ",difx," ","dify: ",dify
+              end
+            else
+              difx=last_position[0].get_x()-enemy.get_x()
+              dify=last_position[0].get_y()-enemy.get_y()
+#              print "difx: ",difx," ","dify: ",dify
+          end
+          case (difx)
+            when 0
+              case(dify)
+                when 1
+                  enemy.set_enemy_move(enemy.get_enemy_move+"N")
+                when -1
+                  enemy.set_enemy_move(enemy.get_enemy_move+"S")
+              end
+            when 1
+              enemy.set_enemy_move(enemy.get_enemy_move+"O")
+            when -1
+              enemy.set_enemy_move(enemy.get_enemy_move+"E")
+          end
+        }
+      end
+    end
 
     def identify_powers
       powers_map=@last_map_elements.select{|element| element.get_type()==3 || element.get_type()==4}
@@ -199,7 +299,6 @@ class Bot
       end
     end
 
-
   def escape_boms(x,y)
       tmp_map=@map_elements
       map_escape=neighbors(tmp_map,x,y)
@@ -258,8 +357,12 @@ class Bot
       assess_near_elements(2)
       end
     end
-    search_best_position(@x,@y,3)
-    move()
+    map_rank=@map_elements.select{|element| element.get_rank()>0}
+    if(map_rank.size()==0)
+      print "map rank:",print_map(map_rank,true,true,true)
+      search_best_position(@x,@y,3)
+    end
+    #move()
     return strategy
   end
 
@@ -296,7 +399,7 @@ class Bot
       print print_map(map_blocks,true,false,true)
   end
 
-    def destroy_enemies(map_neighbors_distance_1,map_neighbors_distance_2)
+  def destroy_enemies(map_neighbors_distance_1,map_neighbors_distance_2)
       map_enemies=map_neighbors_distance_2.select{|element| element.get_type==2}
       map_posible_boms=map_neighbors_distance_1.select{|element| element.get_type==9 || element.get_type==7 || element.get_type==5} ##Posibles ubicaciones bombas
       map_enemies.each{|enemies|
@@ -377,7 +480,6 @@ class Bot
     end
 
   end
-
 
   def defineStrategy()
     players_map=@map_elements.select{|element|element.get_type()==2}
